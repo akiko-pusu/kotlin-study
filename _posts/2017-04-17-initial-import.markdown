@@ -2,7 +2,7 @@
 layout: post
 title:  "はじめのいっぽ"
 date:   2017-04-17 00:27:22 + Asia/Tokyo
-categories: メモ Kotlin
+tags: メモ Kotlin
 timezone: Asia/Tokyo
 ---
 2017年春になりまして、新しい言語を覚えたいなあ...と思い、Kotlinにトライすることにしました。
@@ -34,3 +34,5 @@ fun main(args:Array<String>) {
 ### Jekyllのメモ
 
 - Jekyllで記載する場合、timezoneをメタデータで指定しないと、GitHub Page側での記事の生成日付がずれたりするので注意
+
+{% include post_meta.html %}
