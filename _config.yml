@@ -16,7 +16,7 @@
 title: Kotlin personal memo
 email: akiko_pusu@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a repository for learning Kotolin.
+  This is a [repository](https://github.com/akiko-pusu/kotlin-memo) for learning Kotolin.
   So that, most of codes are written as personal memo or personal studies.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/akiko-pusu/kotlin-memo" # the base hostname & protocol for your site, e.g. http://example.com
