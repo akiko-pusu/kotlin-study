@@ -3,10 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-Please note: This is a repository for learning Kotolin.
+Please note: This is a [repository](https://github.com/akiko-pusu/kotlin-memo) for learning Kotolin.
 So that, most of codes are written as personal memo or personal studies.
 
-このリポジトリはKotolinの個人的な学習用のリポジトリです。
+この[リポジトリ](https://github.com/akiko-pusu/kotlin-memo)はKotolinの個人的な学習用の[リポジトリ](https://github.com/akiko-pusu/kotlin-memo)です。
 
 特に何かのアプリケーションを記述したり作成しているわけではなく、学習用のコード（オンラインのサンプルやチュートリアルを参照したソースコード）が中心になります。
 
