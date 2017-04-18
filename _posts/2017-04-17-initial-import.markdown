@@ -35,4 +35,3 @@ fun main(args:Array<String>) {
 
 - Jekyllで記載する場合、timezoneをメタデータで指定しないと、GitHub Page側での記事の生成日付がずれたりするので注意
 
-{% include post_meta.html %}

@@ -8,3 +8,15 @@ a.post_link > i.post_time {
   color: darkgray;
   font-size: smaller;
 }
+
+div.post_meta {
+  background-color: #f4f7f7;
+  color: #acb7b7;
+  font-size: smaller;
+  span.post-tags {
+    text-align: right;
+  }
+  time {
+    float: right;
+  }
+}

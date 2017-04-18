@@ -33,7 +33,7 @@ permalink: /tags
       </h3>
 
       {% for post in site.tags[tag_name] %}
-        <a href="{{ post.url | prepend: baseurl }}" class="post_link">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="post_link">
           {{ post.title }}
           <i class="post_time"> {{ post.date| date: '%Y-%m-%d' }} </i>
         </a>
