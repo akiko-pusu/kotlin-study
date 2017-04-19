@@ -28,7 +28,7 @@ output = null
 
 And of course, Kotlin protects you from mistakenly operating on nullable types, including those from Java
 
-もちろん、Kotlinはこういった nullの値を取る可能性のある変数に対して、誤った操作を行ことを防いでくれます。
+もちろん、Kotlinはこういった nullの値を取る可能性のある変数に対して、誤った操作を行うことを防いでくれます。
 
 
 {% highlight kotlin %}
@@ -36,6 +36,8 @@ println(output.length())
 
 /*
  実行するとこんなエラーが出ます：
+ 「nullになる可能性がある値を安全に操作するためには、?.演算子を使うか、もしくは!!演算子を使って非null型に変換してください。そうでないと、nullの可能性があるStringやIntについての"length()"関数を呼び出しできません」
+
  Only safe (?.) or non-null asserted (!!.) calls are allowed on a nullable receiver of type String
  Expression 'length' of type 'Int' cannot be invoked as a function. The function 'invoke()' is not found
 */
@@ -44,6 +46,7 @@ println(output.length())
 And if you check a type is right, the compiler will auto-cast it for you
 
 それから、もし適切に型のチェックをしていれば、こんな具合にコンパイラが自動で型変換をしてくれます。
+(文脈を判断して、適切な型として扱ってくれます！)
 
 {% highlight kotlin %}
 fun calculateTotal(obj: Any) {
