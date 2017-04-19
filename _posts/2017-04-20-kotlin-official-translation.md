@@ -10,7 +10,7 @@ timezone: Asia/Tokyo
 
 Build server-side applications, Android apps or frontend code running in the browser.
 
-サーバサイド青瓜ケーションやアンドロイドアプリ、それからブラウザで動くフロントエンドのアプリもビルドできます。
+サーバサイドアプリケーションやアンドロイドアプリ、それからブラウザで動くフロントエンドのアプリもビルドできます。
 
 -----
 
