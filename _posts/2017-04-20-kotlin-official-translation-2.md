@@ -25,7 +25,7 @@ public class NettyHandler: ChannelInboundMessageHandlerAdapter<Any>() {
         throw UnsupportedOperationException()
     }
 }
-{% endhighlight }
+{% endhighlight %}
 
 Or use any existing library on the JVM, as there’s 100% compatibility, including SAM support.
 
