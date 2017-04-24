@@ -23,6 +23,9 @@ url: "https://github.com/akiko-pusu/kotlin-study" # the base hostname & protocol
 twitter_username: akiko_pusu
 github_username:  akiko-pusu
 
+minima:
+  date_format: "%Y-%m-%d"
+
 # Build settings
 markdown: kramdown
 theme: minima

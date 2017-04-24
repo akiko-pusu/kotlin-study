@@ -2,7 +2,7 @@
 layout: post
 title:  "Kotlinのコマンドラインツール"
 date:   2017-04-24 00:19:39 + Asia/Tokyo
-tags: メモ kotlin
+tags: メモ Kotlin
 timezone: Asia/Tokyo
 ---
 
