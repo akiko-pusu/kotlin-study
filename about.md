@@ -14,6 +14,7 @@ So that, most of codes are written as personal memo or personal studies.
 
 - [http://kotlinlang.org](http://kotlinlang.org) (公式サイト / Official Site)
 - [Try Kotlin](http://try.kotlinlang.org) (オンラインのエディタ / Online IDE)
+- Update test
 
 
 
