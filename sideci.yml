@@ -1,0 +1,11 @@
+linter:
+  stylelint:
+    npm_install: true
+    options:
+      config: lint_yml/mystylelintrc.yaml
+      ignore-path: .stylelintignore
+      syntax: sugarss
+      ignore-disables: true
+      report-needless-disables: true
+      quiet: true
+      glob: '**/*.{css,scss}'
